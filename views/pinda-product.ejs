@@ -1,0 +1,30 @@
+<%- include('./Partials/head') %>
+
+<main class="product-main">
+
+<picture>
+    <img class="pindaproducten" class="product-picture" src=" <%= product.plaatjes[0].url %>" alt="pindaofeiproducten">
+</picture>
+
+
+<h2 class="titelproducten">
+    <%= product.titel%>
+</h2>
+
+<p class="prijs-product">
+    <span>&euro;</span>  <%= product.prijs%>
+</p>
+
+<button type="button" class="button-shopcart">Toevoegen</button>
+<button type="button" class="button-buy">Nu Kopen</button>
+
+<h2 class="beschrijving-titel">Beschrijving</h2>
+
+<p class="beschrijving-product"><%- product.beschrijving.html %> </p>
+
+
+
+</main>
+
+<%- include('./Partials/foot') %>
+

@@ -1,0 +1,47 @@
+<%- include('./Partials/head') %>
+
+
+    <main>
+        <div class="img-producten-beschrijving">
+        <div class="producten-beschrijving">
+            <!-- Title Producten -->
+            <h1 class="main-title">
+                alle producten
+            </h1>
+            <!-- Beschrijving Test -->
+            <p class="product-test">
+                Doe altijd eerst de Vini Mini test voordat je onze producten koopt. Zo weet jij of je in 3 of 6 kleine
+                stapjes kunt beginnen met voor het eerst allergenen te geven.
+            </p>
+            <!-- Beschrijving Arts -->
+            <p class="product-arts">
+                Overleg voor je begint altijd met een arts of het consultatiebureau.
+            </p>
+        </div>
+
+        <!-- Pinda Producten img -->
+        <div class="image-div">
+            <img src="/pinda-producten.webp" alt="pinda producten" class="pinda-image">
+        </div>
+        </div>
+        <!-- Twee categorienen Ei en Pinda -->
+        <section class="roelie">
+            <% categories.forEach(categorie=> { %>
+                <% if(categorie.titel==="Ei" || categorie.titel==="Pinda" ) { %>
+                    <article class="producten-div">
+                        <h2>
+                            <%= categorie.titel %>
+                        </h2>
+                        <img class="article-img" src="<%=categorie.titel%>.webp" alt="ei-pinda-illustratie">
+                        <a class="product-btn" href="categorie?categorieId=<%=categorie.id%>">Bekijk producten</a>
+                    </article>
+                    <% } %>
+                        <% }); %>
+        </section>
+        <!-- Pindas img -->
+        <img class="pindas-img" src="/Pinda-versierlsel.webp" loading="lazy" alt="pinda">
+
+    </main>
+
+
+    <%- include('./Partials/foot') %>
