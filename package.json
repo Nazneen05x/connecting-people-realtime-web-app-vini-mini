@@ -1,7 +1,7 @@
 {
-  "name": "performance-matters-optimized-website",
+  "name": "connecting-people-realtime-web-app-vini-mini",
   "version": "1.0.0",
-  "description": "Nazneen & Rayan vinimini",
+  "description": "Nazneen & Rayan ui-stack",
   "main": "index.js",
   "type": "module",
   "directories": {
@@ -19,14 +19,14 @@
   ],
   "repository": {
     "typ": "git",
-    "url": "git+https://github.com/Nazneen05x/performance-matters-optimized-website.git"
+    "url": "git+https://github.com/Nazneen05x/connecting-people-realtime-web-app-vini-mini+git"
   },
   "author": "Nazneen & Rayan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Nazneen05x/performance-matters-optimized-website/issues"
+    "url": "https://github.com/Nazneen05x/connecting-people-realtime-web-app-vini-mini/issues"
   },
-  "homepage": "https://github.com/Nazneen05x/performance-matters-optimized-website#readme",
+  "homepage": "https://github.com/Nazneen05x/connecting-people-realtime-web-app-vini-mini#readme",
   "dependencies": {
     "dotenv": "^16.0.3",
     "ejs": "^3.1.9",
