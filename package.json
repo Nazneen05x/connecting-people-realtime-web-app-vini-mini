@@ -2,15 +2,15 @@
   "name": "connecting-people-realtime-web-app-vini-mini",
   "version": "1.0.0",
   "description": "Nazneen & Rayan ui-stack",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "directories": {
     "doc": "docs"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon index.js",
-    "start": "node index.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "keywords": [
     "node",
