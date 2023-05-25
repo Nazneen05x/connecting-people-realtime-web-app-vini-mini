@@ -24,7 +24,18 @@
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? Misschien heb je iets met NodeJS gedaan, of heb je een framwork of library gebruikt? -->
 
 ## Installatie 🛠️
-<!-- Bij Instalatie staat hoe een andere developer aan jouw repo kan werken -->
+1. Installeer `Node 18.14.0 LTS.`
+2. Fork deze leertaak.
+3. Code klonen naar Github Desktop.
+4. Code open in VSCode of een andere editor.
+5. Terminal open.
+6. `Npm init` (typen in je terminal, stappen doorlopen).
+7. `Npm install express nodemon socket.io` (typen in je terminal, daarna enter druken).
+8. .gitignore` (aparte file aanmaken (VSCode, editor) en dan node_modules schrijven in de file)
+9. `Npm start of Npm run dev` (typen in je terminal).
+10. Localhost: 4242 (live link om je website te zien, link van de server).
+11. Project live zetten met `Cyclic.sh.` of andere webhost.
+
 
 ## Bronnen 🌐
 
