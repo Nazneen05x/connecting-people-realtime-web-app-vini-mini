@@ -1,6 +1,6 @@
 >  De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# ✨ ✨
+# ✨ Vini Mini Form ✨
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 
 ## Inhoudsopgave 📚
@@ -27,6 +27,13 @@
 <!-- Bij Instalatie staat hoe een andere developer aan jouw repo kan werken -->
 
 ## Bronnen 🌐
+
+<ul>
+ <li>https://github.com/ju5tu5/barebonechat</li>
+ <li>https://www.cyclic.sh/</li>
+ <li>https://www.figma.com/</li>
+ <li>https://www.google.com/</li>
+</ul>
 
 ## Licentie 🔒
 
