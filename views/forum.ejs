@@ -1,15 +1,21 @@
 <%- include('./Partials/head') %>
 
-    <h1>Vinimini Forum</h1>
-    <p>Laat hier je vraag achter!</p>
+    <h1 class="main-title">Vinimini Forum</h1>
+    <p class="main-description">Welkom bij onze forum, hier kunt u vragen achterlaten. <span>Voor medische vragen kunt u het beste terecht bij uw huisarts.</span></p>
 
-    <form action="#">
-        <label>Onderwerp</label>
-        <input type="form">
+<section class="forum-section">
+    <form action="/forum" class="forum-form" method="post">
+      <legend class="legend-form">
 
-        <label>Vraag</label>
-        <textarea name=">
+        <label class="input-label">Onderwerp (titel)</label>
+        <input class="input-onderwerp" type="text" autocomplete="off" name="titel" placeholder="Type hier...">
 
+        <label class="input-label">Vraag</label>
+        <textarea class="textarea-aantekening" cols="20" rows="5" type="text" name="beschrijving" autocomplete="off" placeholder="Type hier..." required></textarea>
+
+        <button class="form-btn" type="submit" value="verstuur">Verstuur</button>
+
+      </legend>    
     </form>
-
+</section>
 <%- include('./Partials/foot') %>

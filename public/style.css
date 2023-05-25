@@ -538,6 +538,81 @@ nav {
 }
 
 
+/* FORUM STYLING */
+
+.main-title {
+    text-align: center;
+    margin-top: 4rem;
+    color: var(--clr-green);
+    text-transform: uppercase;
+}
+
+
+.main-description {
+    border-top: 3px solid var(--clr-green);
+    text-align: center;
+    padding-top: 13px;    
+    line-height: 1.3;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: .75em;
+    margin-bottom: 3rem;
+}
+
+.main-description span {
+    font-weight: lighter;
+}
+
+.forum-section {
+    display: flex;
+}
+
+.legend-form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.input-label {
+    font-weight: bold;
+}
+
+.input-onderwerp {
+    width: 18rem;
+    height: 2rem;
+    border: 2px solid var(--clr-green);
+    border-radius: 5px;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    outline: none;
+}
+
+.textarea-aantekening {
+    border: 2px solid var(--clr-green);
+    border-radius: 5px;
+    margin-top: .5rem;
+    outline: none;
+}
+
+.form-btn {
+    background-color: var(--clr-green);
+    border: 2px solid var(--clr-green);
+    border-radius: 5px;
+    height: 2.5rem;
+    margin-top: 1rem;
+    width: 13rem;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.form-btn:hover {
+    background-color: white;
+    color: var(--clr-green);
+}
+
 @media screen and (max-width: 800px) {
 
     .navbar-items {
