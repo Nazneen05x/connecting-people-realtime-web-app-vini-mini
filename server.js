@@ -42,11 +42,7 @@ app.get('/product', (request, response) => {
     console.log(data)
     response.render('pinda-product', data);
   });
-
-  
 })
-
-
 
 
 
