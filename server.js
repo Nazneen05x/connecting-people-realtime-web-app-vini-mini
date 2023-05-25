@@ -44,6 +44,15 @@ app.get('/product', (request, response) => {
   });
 })
 
+app.get('/forum', (request, response) => {
+
+  let forumUrl = url + '/forum'
+
+  fetchJson(forumUrl).then((data) => {
+    response.render('forum', data);
+  });
+})
+
 
 
 // Stel het poortnummer in en start express
