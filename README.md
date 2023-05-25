@@ -32,7 +32,7 @@
 <ul>
 <li>EJS</li>
  <li>Express</li>
- <li>socket.io</li>
+ <li>Socket.io</li>
 <li>CSS</li>
 <li>Javascript</li>
 </ul>
