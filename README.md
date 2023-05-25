@@ -1,6 +1,6 @@
 >  De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# ✨ ✨
+# ✨ Vini Mini Form ✨
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 
 ## Inhoudsopgave 📚
@@ -21,12 +21,50 @@
 <!-- Bij Gebruik staat de user story, hoe het werkt en wat je er mee kan. -->
 
 ## Kenmerken 🖇️
-<!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? Misschien heb je iets met NodeJS gedaan, of heb je een framwork of library gebruikt? -->
+<strong>`TOOLS 🧰`</strong>
+<ul>
+<li>VSCode</li>
+<li>Fimga</li>
+<li>Ipad (schetsen)</li>
+</ul>
+
+<strong>`GEBRUIKTE TECHNIEKEN 🪚`</strong>
+<ul>
+<li>EJS</li>
+ <li>Express</li>
+ <li>Socket.io</li>
+<li>CSS</li>
+<li>Javascript</li>
+</ul>
+
+<strong>`🗣️ COMMUNICATIE MIDDELEN`</strong>
+<ul>
+<li>WhatsApp</li>
+ <li>Teams</li>
+</ul>
 
 ## Installatie 🛠️
-<!-- Bij Instalatie staat hoe een andere developer aan jouw repo kan werken -->
+1. Installeer `Node 18.14.0 LTS.`
+2. Fork deze leertaak.
+3. Code klonen naar Github Desktop.
+4. Code open in VSCode of een andere editor.
+5. Terminal open.
+6. `Npm init` (typen in je terminal, stappen doorlopen).
+7. `Npm install express nodemon socket.io` (typen in je terminal, daarna enter druken).
+8. .gitignore` (aparte file aanmaken (VSCode, editor) en dan node_modules schrijven in de file)
+9. `Npm start of Npm run dev` (typen in je terminal).
+10. Localhost: 4242 (live link om je website te zien, link van de server).
+11. Project live zetten met `Cyclic.sh.` of andere webhost.
+
 
 ## Bronnen 🌐
+
+<ul>
+ <li>https://github.com/ju5tu5/barebonechat</li>
+ <li>https://www.cyclic.sh/</li>
+ <li>https://www.figma.com/</li>
+ <li>https://www.google.com/</li>
+</ul>
 
 ## Licentie 🔒
 
