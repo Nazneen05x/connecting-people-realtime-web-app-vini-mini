@@ -1,3 +1,6 @@
+
+let ioServer = io()
+
 // var loader = document.getElementById("preloader");
 
 // window.addEventListener("load", function(){

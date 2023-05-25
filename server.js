@@ -1,10 +1,31 @@
 
+import * as path from 'path'
+
+import { Server } from 'socket.io'
+import { createServer } from 'http'
 import express from 'express'
+
 
 const url = 'https://api.vinimini.fdnd.nl/api/v1'
 
 // Maak een nieuwe express app
 const app = express()
+const http = createServer(app)
+const ioServer = new Server(http, {
+  connectionStateRecovery: {
+    // De tijdsduur voor recovery bij disconnect
+    maxDisconnectionDuration: 2 * 60 * 1000,
+    // Of middlewares geskipped moeten worden bij recovery (ivm login)
+    skipMiddlewares: true,
+  },
+})
+
+// Start de socket.io server op
+ioServer.on('connection', (client) => {
+  // Log de connectie naar console
+  console.log(`user ${client.id} connected`)
+
+})
 
 // Stel in hoe we express gebruiken
 app.set('view engine', 'ejs')
@@ -56,10 +77,12 @@ app.get('/forum', (request, response) => {
 
 
 // Stel het poortnummer in en start express
-app.set('port', process.env.PORT || 8000)
-app.listen(app.get('port'), function () {
-  console.log(`Application started on http://localhost:${app.get('port')}`)
-})
+// app.set('port', process.env.PORT || 8000)
+// app.listen(app.get('port'), function () {
+//   console.log(`Application started on http://localhost:${app.get('port')}`)
+// })
+
+const port = process.env.PORT || 4242
 
 /**
  * Wraps the fetch api and returns the response body parsed through json
@@ -71,3 +94,9 @@ async function fetchJson(url) {
     .then((response) => response.json())
     .catch((error) => error)
 }
+
+
+// Start een http server op het ingestelde poortnummer en log de url
+http.listen(port, () => {
+  console.log('listening on http://localhost:' + port)
+})
