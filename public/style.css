@@ -359,6 +359,27 @@ nav {
 
 
 
+.chaticon{
+    width: 5em;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2em;
+}
+
+.iconchat{
+    position: relative;
+    left: -1.5em;
+    width: 2em;
+    top: 0em;
+}
+
+.chatbox{
+    position: absolute;
+    left: 77em;
+    bottom: -23em;
+}
+
+
 /* ----MEDIA QUERY----  */
 
 @media screen and (min-width: 930px) {
