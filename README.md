@@ -1,6 +1,6 @@
 >  De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# ✨ Vini Mini Form ✨
+# ✨ Vini Mini Forum + Chatbox ✨
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 
 ## Inhoudsopgave 📚
