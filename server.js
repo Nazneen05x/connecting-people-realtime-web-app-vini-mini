@@ -74,6 +74,35 @@ app.get('/forum', (request, response) => {
   });
 })
 
+app.post('/forum', (request, response) => {
+  const url = 'https://api.vinimini.fdnd.nl/api/v1'
+  const forumUrl = 'url + /forum'
+
+  request.body.afgerond = false
+  request.body.persoonId = 'clemozv3c3eod0bunahh71sx7'
+  request.body.datum = request.body.datum + ':00Z'
+  request.body.herinnering = [request.body.herinnering + ':00Z']
+
+  postJson(url + '/forum', request.body).then((data) => {
+    let newForum = { ... request.body }
+    console.log(newForum);
+
+    if (data.success) {
+      response.redirect('/') 
+      console.log("werkt!")
+      console.log(data);
+    }
+
+    else {
+      const errormessage = `${data.message}: Mogelijk komt dit door de slug die al bestaat.`
+      const newdata = { error: errormessage, values: newForum }
+      console.log(data)
+      console.log(JSON.stringify(data))
+      response.render('index', newdata)
+    }
+  })
+})
+
 
 
 // Stel het poortnummer in en start express

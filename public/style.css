@@ -680,13 +680,24 @@ nav {
     margin-top: .5rem;
     margin-bottom: 1rem;
     outline: none;
+    transition: .2s ease-in-out;
+}
+
+.input-onderwerp:focus {
+    height: 2.5rem;
 }
 
 .textarea-aantekening {
     border: 2px solid var(--clr-green);
     border-radius: 5px;
+    height: 5rem;
     margin-top: .5rem;
     outline: none;
+    transition: .2s ease-in-out;
+}
+
+.textarea-aantekening:focus {
+    height: 6rem;
 }
 
 .form-btn {
