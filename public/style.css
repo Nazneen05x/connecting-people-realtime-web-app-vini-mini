@@ -316,9 +316,14 @@ nav {
     display: none;
   }
   
-  .chatboxsection form > button::after {
-    content: '⇒';
-  }
+.buttonchatbox{
+    background: var(--clr-green);
+    border: var(--clr-green);
+    width: 5em;
+    border-radius: 1em;
+    margin-bottom: 1em;
+}
+
   
   
 
