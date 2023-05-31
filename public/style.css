@@ -302,10 +302,14 @@ nav {
     align-content: center;
   }
 
-  .chatboxsection form input[type='text'] {
+  .chatboxsection form input {
     padding: 0 1rem;
     height: 2rem;
     flex-grow: 2;
+    border-radius: 1.5em;
+    border-color: var(--clr-green);
+    margin-bottom: 1em;
+    margin-top: 0.5em;
   }
 
   .chatboxsection form > button span {
@@ -316,14 +320,7 @@ nav {
     content: '⇒';
   }
   
-  .chatboxsection form > button:hover {
-    padding-left: 1rem;
-  }
   
-  .chatboxsection form > button:active {
-    padding-left: 1rem;
-    color: red;
-  }
 
 /* -----FOOTER STYLING----- */
 
