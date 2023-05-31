@@ -1,6 +1,6 @@
 >  De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
-# ✨ Vini Mini Forum + Chatbox ✨
+# ✨ Vini Mini Chatbox ✨
 <!-- Geef je project een titel en schrijf in één zin wat het is -->
 
 ## Inhoudsopgave 📚
@@ -18,7 +18,9 @@
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
 ## Gebruik 👨‍👩‍👧‍👦
-<!-- Bij Gebruik staat de user story, hoe het werkt en wat je er mee kan. -->
+Voor deze user story hebben we een simpele chatbox gemaakt. Ouders kunnen in de chat hun vragen stellen aan Vini Mini of aan andere ouders.
+
+`#10. Als ouder wil ik vragen kunnen stellen over het stappenplan of het account aanmaken of de vragenlijst/test zodat ik...`
 
 ## Kenmerken 🖇️
 <strong>`TOOLS 🧰`</strong>
@@ -60,6 +62,7 @@
 ## Bronnen 🌐
 
 <ul>
+ <li>https://lucide.dev/</li>
  <li>https://github.com/ju5tu5/barebonechat</li>
  <li>https://www.cyclic.sh/</li>
  <li>https://www.figma.com/</li>
