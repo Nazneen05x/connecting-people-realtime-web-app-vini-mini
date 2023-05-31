@@ -251,16 +251,16 @@ nav {
 }
 
 .chatbox{
-    position: absolute;
-    left: 77em;
-    bottom: -23em;
+    position: relative;
+    left: -1em;
+    bottom: -13em;
 }
 
 /* -----CHATBOXFORMULIER----- */
 
 .chatboxsection{
     width: 20rem;
-    height: 30rem;
+    height: 23rem;
     border-radius: 2rem;
     border: 2px solid #73AEA6;
     box-shadow: 0.8rem 0.8rem 1.6rem 0 rgba(206, 205, 205, 0.5), -0.8rem -0.8rem 1.6rem 0 rgba(255, 255, 255, 0.5);
@@ -269,6 +269,8 @@ nav {
     z-index: 50;
     display: flex;
     margin: 5em;
+    margin-bottom: -12em;
+    margin-left: 67em;
 }
 
 .chatboxsection h1{
@@ -297,6 +299,8 @@ nav {
 .chatboxsection form {
     height: 4rem;
     display: flex;
+    top: 2em;
+    position: relative;
     margin: 4em;
     flex-wrap: wrap;
     align-content: center;
@@ -324,7 +328,9 @@ nav {
     margin-bottom: 1em;
 }
 
-  
+/* .form-visibility {
+    visibility: visible;
+} */
   
 
 /* -----FOOTER STYLING----- */
