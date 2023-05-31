@@ -232,6 +232,99 @@ nav {
     height: auto;
 }
 
+
+/* -----CHATBOX----- */
+/* -----CHATBOXICON----- */
+
+.chaticon{
+    width: 5em;
+    height: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 2em;
+}
+
+.iconchat{
+    position: relative;
+    left: -1.5em;
+    width: 2em;
+    top: 0em;
+}
+
+.chatbox{
+    position: absolute;
+    left: 77em;
+    bottom: -23em;
+}
+
+/* -----CHATBOXFORMULIER----- */
+
+.chatboxsection{
+    width: 20rem;
+    height: 30rem;
+    border-radius: 2rem;
+    border: 2px solid #73AEA6;
+    box-shadow: 0.8rem 0.8rem 1.6rem 0 rgba(206, 205, 205, 0.5), -0.8rem -0.8rem 1.6rem 0 rgba(255, 255, 255, 0.5);
+    flex-direction: column;
+    align-items: center;
+    z-index: 50;
+    display: flex;
+    margin: 5em;
+}
+
+.chatboxsection h1{
+    margin: 0;
+    padding: 0;
+    padding-top: 1rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+
+
+.chatboxsection ul{
+    margin: 0;
+    padding: 0.2em;
+    list-style-type: none;
+    flex-grow: 2;
+    width: 18em;
+    overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+    background: transparent;
+  }
+
+.chatboxsection form {
+    height: 4rem;
+    display: flex;
+    margin: 4em;
+    flex-wrap: wrap;
+    align-content: center;
+  }
+
+  .chatboxsection form input[type='text'] {
+    padding: 0 1rem;
+    height: 2rem;
+    flex-grow: 2;
+  }
+
+  .chatboxsection form > button span {
+    display: none;
+  }
+  
+  .chatboxsection form > button::after {
+    content: '⇒';
+  }
+  
+  .chatboxsection form > button:hover {
+    padding-left: 1rem;
+  }
+  
+  .chatboxsection form > button:active {
+    padding-left: 1rem;
+    color: red;
+  }
+
 /* -----FOOTER STYLING----- */
 
 .certified {
@@ -359,25 +452,6 @@ nav {
 
 
 
-.chaticon{
-    width: 5em;
-    height: auto;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 2em;
-}
-
-.iconchat{
-    position: relative;
-    left: -1.5em;
-    width: 2em;
-    top: 0em;
-}
-
-.chatbox{
-    position: absolute;
-    left: 77em;
-    bottom: -23em;
-}
 
 
 /* ----MEDIA QUERY----  */
