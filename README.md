@@ -18,7 +18,7 @@
 <!-- Voeg een link toe naar Github Pages 🌐-->
 
 ## Gebruik 👨‍👩‍👧‍👦
-Voor deze user story hebben we een simpele chatbox gemaakt. Ouders kunnen in de chat hun vragen stellen aan Vini Mini of aan andere ouders.
+Voor deze user story hebben we een simpele chatbox gemaakt. Ouders kunnen in de chat hun vragen stellen aan Vini Mini of aan andere ouders. Klik op de knop om gebruik te maken van de chatbox!😁
 
 `#10. Als ouder wil ik vragen kunnen stellen over het stappenplan of het account aanmaken of de vragenlijst/test zodat ik...`
 
