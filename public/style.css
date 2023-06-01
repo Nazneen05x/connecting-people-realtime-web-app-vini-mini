@@ -330,6 +330,10 @@ nav {
     margin-top: 0.5em;
   }
 
+  .chatboxsection form input:focus {
+    outline: none;
+  }  
+
   .chatboxsection form > button span {
     display: none;
   }
