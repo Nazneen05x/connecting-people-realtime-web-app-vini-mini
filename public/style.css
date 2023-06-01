@@ -338,7 +338,7 @@ nav {
     display: none;
   }
   
-.buttonchatbox{
+.button-chatbox{
     background: var(--clr-green);
     border: 2px solid var(--clr-green);
     width: 5em;
@@ -347,8 +347,8 @@ nav {
     cursor: pointer;
 }
 
-.buttonchatbox:hover {
-    background: white;
+.button-chatbox:hover {
+    background: var(--clr-blue);
     border: 2px solid var(--clr-green);
 }
 
