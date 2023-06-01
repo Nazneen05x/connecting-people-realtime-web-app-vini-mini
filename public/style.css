@@ -258,7 +258,13 @@ nav {
 
 /* -----CHATBOXFORMULIER----- */
 
+.section-chatbox {
+    display: flex;
+    justify-content: center;
+}
+
 .chatboxsection{
+    display: flex;
     width: 20rem;
     height: 23rem;
     border-radius: 2rem;
@@ -266,11 +272,9 @@ nav {
     box-shadow: 0.8rem 0.8rem 1.6rem 0 rgba(206, 205, 205, 0.5), -0.8rem -0.8rem 1.6rem 0 rgba(255, 255, 255, 0.5);
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     z-index: 50;
-    display: flex;
     margin: 5em;
-    margin-bottom: -12em;
-    margin-left: 67em;
 }
 
 .chatboxsection h1{
@@ -292,14 +296,24 @@ nav {
     overflow-y: scroll;
 }
 
-::-webkit-scrollbar {
+.chatboxsection ul > li {
+    padding: 0.5rem 1rem;
+    font-size: 0.8rem;
+    background-color: #f4eb34;
+    border-radius: 15px;
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+    width: fit-content;
+}
+
+/* ::-webkit-scrollbar {
     background: transparent;
-  }
+  } */
 
 .chatboxsection form {
-    height: 4rem;
+    height: 1rem;
     display: flex;
-    top: 2em;
+    top: .1rem;
     position: relative;
     margin: 4em;
     flex-wrap: wrap;
@@ -322,7 +336,7 @@ nav {
   
 .buttonchatbox{
     background: var(--clr-green);
-    border: var(--clr-green);
+    border: 2px solid var(--clr-green);
     width: 5em;
     border-radius: 1em;
     margin-bottom: 1em;
@@ -330,8 +344,8 @@ nav {
 }
 
 .buttonchatbox:hover {
+    background: white;
     border: 2px solid var(--clr-green);
-    color: white;
 }
 
 /* .form-visibility {
