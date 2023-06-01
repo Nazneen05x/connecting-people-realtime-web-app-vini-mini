@@ -313,7 +313,7 @@ nav {
 .chatboxsection form {
     height: 1rem;
     display: flex;
-    top: .1rem;
+    top:  -1.9rem;
     position: relative;
     margin: 4em;
     flex-wrap: wrap;
