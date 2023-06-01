@@ -266,7 +266,7 @@ nav {
 .chatboxsection{
     display: flex;
     width: 20rem;
-    height: 23rem;
+    height: 28rem;
     border-radius: 2rem;
     border: 2px solid var(--clr-green);
     box-shadow: 0.8rem 0.8rem 1.6rem 0 rgba(206, 205, 205, 0.5), -0.8rem -0.8rem 1.6rem 0 rgba(255, 255, 255, 0.5);
@@ -302,7 +302,7 @@ nav {
     background-color: #f4eb34;
     border-radius: 15px;
     margin-top: .5rem;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
     width: fit-content;
 }
 
