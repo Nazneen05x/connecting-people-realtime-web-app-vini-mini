@@ -8,8 +8,6 @@ let Bericht = document.querySelector('#Bericht')
 
 
 
-
-
 // Luister naar het submit event
 document.querySelector('form').addEventListener('submit', (event) => {
   event.preventDefault()
@@ -26,6 +24,7 @@ document.querySelector('form').addEventListener('submit', (event) => {
     Bericht.value = ''
   }
 })
+
 
 
 
