@@ -338,7 +338,7 @@ nav {
     display: none;
   }
   
-.button-chatbox{
+.buttonchatbox{
     background: var(--clr-green);
     border: 2px solid var(--clr-green);
     width: 5em;
