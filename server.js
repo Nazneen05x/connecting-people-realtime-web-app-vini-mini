@@ -1,4 +1,4 @@
-
+import fetch from "node-fetch";
 import * as path from 'path'
 
 import { Server } from 'socket.io'
