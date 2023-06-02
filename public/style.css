@@ -296,7 +296,7 @@ nav {
     overflow-y: scroll;
 }
 
-.chatboxsection ul > li {
+.chatboxsection .chatboxul> li {
     padding: 0.5rem 1rem;
     font-size: 0.8rem;
     background-color: #f4eb34;
