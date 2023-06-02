@@ -313,7 +313,7 @@ nav {
 .chatboxsection form {
     height: 1rem;
     display: flex;
-    top: .1rem;
+    top:  -1.9rem;
     position: relative;
     margin: 4em;
     flex-wrap: wrap;
@@ -348,7 +348,7 @@ nav {
 }
 
 .button-chatbox:hover {
-    background: white;
+    background: var(--clr-blue);
     border: 2px solid var(--clr-green);
 }
 

@@ -1,8 +1,8 @@
 let ioServer = io()
 let messages = document.querySelector('section ul')
 let input = document.querySelector('input')
-
-
+let Gebruikersnaam = document.querySelector('#Gebruikersnaam')
+let Bericht = document.querySelector('#Bericht')
 
 
 
@@ -15,19 +15,26 @@ document.querySelector('form').addEventListener('submit', (event) => {
   // Als er überhaupt iets getypt is
   if (input.value) {
     // Stuur het bericht naar de server
-    ioServer.emit('message', input.value)
+    ioServer.emit('message',{ 
+      Gebruikersnaam: Gebruikersnaam.value,
+      Bericht: Bericht.value
+    })
 
     // Leeg het form field
-    input.value = ''
+    Bericht.value = ''
   }
 })
 
 
 
+
 // Luister naar berichten van de server
 ioServer.on('message', (message) => {
-  addMessage(message)
+  addMessage(`${message.Gebruikersnaam}: ${message.Bericht}`)
+
 })
+
+
 
 /**
  * Impure function that appends a new li item holding the passed message to the
