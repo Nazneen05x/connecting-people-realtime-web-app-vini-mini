@@ -17,7 +17,7 @@
 Het doel van deze sprint (project) is om een real-time applicatie te maken voor de opdrachtgever. Ons opdrachtgever is Vini Mini. Vini Mini verkoopt producten om vroegtijdig allergenen te voorkomen bij baby's en kinderen. We hebben een chatbox gemaakt voor de website van de opdrachtgever.
 
 ## Gebruik 👨‍👩‍👧‍👦
-Voor deze user story hebben we een simpele chatbox gemaakt. Ouders kunnen in de chat hun vragen stellen aan Vini Mini of aan andere ouders. Klik op de knop om gebruik te maken van de chatbox!😁
+Voor deze user story hebben we een simpele chatbox gemaakt. Ouders kunnen in de chat hun vragen stellen aan Vini Mini of aan andere ouders!😁.
 
 `#10. Als ouder wil ik vragen kunnen stellen over het stappenplan of het account aanmaken of de vragenlijst/test zodat ik...`
 
