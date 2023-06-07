@@ -1,4 +1,5 @@
-import fetch from "node-fetch";
+// import fetch from "node-fetch";
+const fetch = require('node-fetch');
 import * as path from 'path'
 
 import { Server } from 'socket.io'
