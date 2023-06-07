@@ -140,6 +140,12 @@ app.post('/forum', (request, response) => {
 
 const port = process.env.PORT || 4242
 
+
+// Start een http server op het ingestelde poortnummer en log de url
+http.listen(port, () => {
+  console.log('listening on http://localhost:' + port)
+})
+
 /**
  * Wraps the fetch api and returns the response body parsed through json
  * @param {*} url the api endpoint to address
@@ -152,8 +158,8 @@ async function fetchJson(url) {
 }
 
 
-// Start een http server op het ingestelde poortnummer en log de url
-http.listen(port, () => {
-  console.log('listening on http://localhost:' + port)
-})
+// // Start een http server op het ingestelde poortnummer en log de url
+// http.listen(port, () => {
+//   console.log('listening on http://localhost:' + port)
+// })
 
