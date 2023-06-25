@@ -1,7 +1,9 @@
 >  De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
 
 # ✨ Vini Mini Chatbox ✨
-<!-- Geef je project een titel en schrijf in één zin wat het is -->
+
+<img width="500" alt="" src="https://github.com/Nazneen05x/connecting-people-realtime-web-app-vini-mini/assets/112861261/76a2c7b5-1ae4-4c3f-9ed7-ac5aac963802">
+
 
 ## Inhoudsopgave 📚
 
